@@ -1,0 +1,35 @@
+*body{
+    font-family: sans-serif;
+}
+.app-continer{
+    
+    height: 600PX;
+    width: 350PX;
+    background-image: linear-gradient(#05a505,#24f8ca);
+    top: 50PX;
+    left: 50PX;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+.top-box
+{
+    height: 150px;
+    background-color:#05a505;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.top-box p{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.left-icon
+{
+    float: left;
+    margin-left: 30px;
+}
+.right-icon
+{
+    float: right;
+    margin-right: 30px;
+}

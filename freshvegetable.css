@@ -1,0 +1,274 @@
+body
+{
+    margin: 0%;
+    font-family: system-ui;
+
+}
+.paralex , .paralax{
+
+    background-image: url('C:/ABHI MONDAL/FRESH VEGETABLE/salad-1.jpg');
+    height: min-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 50PX;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color:white;
+    background-color: rgba(9, 2, 15, 0.397);
+}
+.page-title
+{
+    background:rgba(red, green, blue, alpha);
+    text-align: center;
+    padding: 50px;
+    color:white;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+.nav-link
+{
+ color: white;
+}
+.navbar-brand
+{
+    color: white;
+}
+.contaners .deals-container
+{
+    margin: 50px,50px,50px,5%;
+    width: 50px;
+    text-align: center;
+    
+}
+
+.categoris 
+{
+    width: max-content;
+    margin: auto;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.categoris:hover 
+{
+ box-shadow: 0 0 10px 3px #184d47;
+}
+.item-image
+{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius:0 0 50px 50px;
+}
+.image-title
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+}
+
+.deal
+{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 7px;
+    max-width: 20%;
+    background: linear-gradient rgba(red, green, blue, alpha)
+}
+.coupaon-btn
+{
+    border: 1px, solid, rgb(238, 14, 14);
+    color: rgb(233, 10, 10);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.coupaon-btn:hover
+{
+    box-shadow: 0,0,10px,5px rgb(4, 28, 241) inset;
+}
+
+.items
+{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    border: 1px solid #122723;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.items:hover
+{
+    box-shadow: 0 0 10px 3px #142c29;
+}
+.images
+{
+    
+    display: inline-block;
+    
+}
+.item-image-size
+{
+    height: 150px;
+    width: 200px;
+    padding:5px;
+}
+
+.description
+{
+    text-align: center;
+    margin: 20px;
+    min-height: 100px;
+
+}
+.item-select 
+{
+    
+    margin: 10px 0 0 0;   
+}
+.buynow-btn, .addcurt-btn,.coupon-btn
+{
+    
+   
+    border: 1px solid #184d47 ;
+    background: #184d47 ;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:white;
+    width: 15;
+ 
+}
+.buynow-btn:hover, .addcurt-btn:hover,.coupon-btn:hover
+{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+
+.paralax
+{
+    background-image: url('C:/ABHI MONDAL/FRESH VEGETABLE/footer background.jpg');
+
+}
+.footer
+{
+    background:rgba(red, green, blue, alpha);
+    text-align: center;
+    padding: 20px;
+
+    
+}
+.quick-links, .Careers
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+    
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+.a-link
+{
+    text-decoration: none;
+    color: white;
+}
+.a-link:hover
+{
+    color: #19493f;
+}
+.copyrights
+{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: rgb(123, 114, 173);
+}
+
+
+.search{
+    border: 1px solid #122723;
+    border-radius: 30px;
+}
+.search-box{
+    background-color:aliceblue;
+}
+.search-item
+{
+    width: 20px;
+    height: 30px;
+    background-repeat: no-repeat;
+
+}
+.wapper .search-input{
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgb(0, 0, 12);
+
+}
+.search-input input{
+    height: 55px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-size:18px;
+
+}
+.search-input .search-icon{
+height: 55px;
+width: 55px;
+line-height: 55px;
+position: absolute;
+top: 0;
+right: 0;
+color: rgb(47, 197, 79);
+font-size: 20px;
+text-align: center;
+cursor: pointer;
+}
+.search-input .search-item{
+   /* padding: 10px 8px;*/
+    max-height: 280px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+.search-item li:hover{
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor:default;
+    border-radius: 3px;
+    display: none;
+
+}
